@@ -25,3 +25,19 @@ Read purpose/setup first, then architecture and contracts, security and failures
 - [Toolchain](docs/en/guides/toolchain.md)
 
 [License](LICENSE)
+
+## Quick start and scope
+
+For a fresh clone, install Docker/Compose, copy the example and set a private database password before startup:
+
+```sh
+cp .env.example .env
+# Configure private local credentials before starting.
+docker compose up --build -d --wait --wait-timeout 180
+```
+
+UI: http://localhost:4200/products; API: http://localhost:8080/api/v1/products. Keep DEV_SEED_ENABLED=false. Existing storage requires the documented identity transition; startup applies migrations. This remains a catalog, with payments planned.
+
+For existing checkouts, update configuration deliberately instead of overwriting the local file.
+
+[Installation, execution flow, operational limits and project interview](docs/en/guides/implementation-study.md). Commands are guidance; this documentation maintenance ran no application tests.

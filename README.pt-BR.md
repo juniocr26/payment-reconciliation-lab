@@ -25,3 +25,19 @@ Leia propósito/setup, arquitetura e contratos, segurança/falhas, testes/evidê
 - [Ferramentas](docs/pt-BR/guides/toolchain.md)
 
 [Licença](LICENSE)
+
+## Início rápido e escopo
+
+Em clone novo, instale Docker/Compose, copie o exemplo e configure senha privada do banco antes de iniciar:
+
+```sh
+cp .env.example .env
+# Configure private local credentials before starting.
+docker compose up --build -d --wait --wait-timeout 180
+```
+
+UI: http://localhost:4200/products; API: http://localhost:8080/api/v1/products. Preserve DEV_SEED_ENABLED=false. Armazenamento existente exige a transição documentada; startup aplica migrations. O escopo atual continua sendo catálogo; pagamentos são planejados.
+
+Em checkout existente, atualize a configuração deliberadamente sem sobrescrever o arquivo local.
+
+[Instalação, fluxo de execução, limites operacionais e entrevista do projeto](docs/pt-BR/guides/implementation-study.md). Comandos são orientação; esta manutenção documental não executou testes da aplicação.
