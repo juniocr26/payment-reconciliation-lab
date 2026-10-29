@@ -1,6 +1,6 @@
 # Architecture Decisions & Trade-offs
 
-[English](architecture-decisions.md) | [Português](../../pt-BR/adr/architecture-decisions.md)
+[English](architecture-decisions.md) | [Português](../../pt-br/adr/architecture-decisions.md)
 
 This document explains the current retained catalog and the transition toward payment reconciliation. Implementation statements come from source, migrations, configuration and tests. Unless an existing document records intent, the rationale below evaluates the current architecture rather than claiming to recover its original motivation. Alternatives are review options, not evidence of a historical evaluation.
 

@@ -1,6 +1,6 @@
 # Catalog schema and domain transition
 
-[English](catalog-and-transition.md) | [Português brasileiro](../../pt-BR/database/catalog-and-transition.md)
+[English](catalog-and-transition.md) | [Português brasileiro](../../pt-br/database/catalog-and-transition.md)
 
 Static source review: 2026-10-10. Implemented facts, general theory and hypothetical changes are distinguished below. Runtime commands were not executed.
 

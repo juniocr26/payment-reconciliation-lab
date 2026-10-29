@@ -1,6 +1,6 @@
 # Startup, implantação e fronteiras dos testes
 
-[English](../../en/operations/deployment-and-evidence.md) | [Português brasileiro](deployment-and-evidence.md)
+[English](../../en/operations/deployment-and-evidence.md) | [Português brasileiro](../../pt-br/operations/deployment-and-evidence.md)
 
 Revisão estática do código: 2026-10-10. Fatos implementados, teoria geral e mudanças hipotéticas são separados abaixo. Comandos runtime não foram executados.
 

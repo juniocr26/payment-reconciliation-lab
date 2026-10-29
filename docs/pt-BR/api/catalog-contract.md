@@ -1,6 +1,6 @@
 # API e UI de catálogo implementadas
 
-[English](../../en/api/catalog-contract.md) | [Português brasileiro](catalog-contract.md)
+[English](../../en/api/catalog-contract.md) | [Português brasileiro](../../pt-br/api/catalog-contract.md)
 
 Revisão estática do código: 2026-10-10. Fatos implementados, teoria geral e mudanças hipotéticas são separados abaixo. Comandos runtime não foram executados.
 

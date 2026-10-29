@@ -1,3 +1,5 @@
+> 29/10/2026: a inspeção de código incluiu [ProductApiTest.java](../../../backend/src/test/java/com/aurorabakery/catalog/ProductApiTest.java). Os casos foram inspecionados, não executados. Resultados datados em outras páginas são históricos; não há nova alegação de cobertura ou sucesso em execução.
+
 # Testes
 
 

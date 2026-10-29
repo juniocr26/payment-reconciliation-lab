@@ -1,6 +1,6 @@
 # Read API security and future payment boundaries
 
-[English](read-api-boundaries.md) | [Português brasileiro](../../pt-BR/security/read-api-boundaries.md)
+[English](read-api-boundaries.md) | [Português brasileiro](../../pt-br/security/read-api-boundaries.md)
 
 Static source review: 2026-10-10. Implemented facts, general theory and hypothetical changes are distinguished below. Runtime commands were not executed.
 

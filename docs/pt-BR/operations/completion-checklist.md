@@ -9,7 +9,7 @@ Base `71b8b8f22d38f08e8ab40cb519f8b1a0985b74c6`; árvore inicialmente limpa. Est
 - [x] Entrevista do projeto e cobertura na Engineering Library
 - [x] Lacunas de evidência e exceções justificadas
 
-[Revisão atual e limites de evidência](../guides/implementation-study.md).
+[Revisão atual e limites de evidência](../../pt-br/guides/implementation-study.md).
 
 A conclusão diz respeito à cobertura documental, não à prontidão de produção, certificação de runtime ou resolução das lacunas de evidência. Resultados do validador estão na revisão da biblioteca.
 
@@ -41,7 +41,7 @@ Revisão estática em 2026-10-10; sem execução runtime. Itens marcados indicam
 
 Transição de domínio fiel; fluxo catálogo/DTO/JPA; dinheiro/constraints; transações; segurança/CORS; migrações/volumes; testes, startup e conciliação hipotética.
 
-[Self-contained dossier / Dossiê](../../../../engineering-library/docs/pt-BR/architecture/payment-reconciliation-lab.md) | [Interview / Entrevista](../../../../engineering-library/docs/pt-BR/interviews/payment-reconciliation-lab.md)
+[Self-contained dossier / Dossiê](../../../../engineering-library/docs/pt-br/projects/payment-reconciliation-lab/docs/pt-br/architecture/overview.md) | [Interview / Entrevista](../../../../engineering-library/docs/pt-br/projects/payment-reconciliation-lab/docs/pt-br/faq/index.md)
 
 ## Aplicabilidade das categorias
 

@@ -1,6 +1,12 @@
 # Architecture and domain
 
-[English](overview.md) | [Português](../../pt-BR/architecture/overview.md)
+## Current source responsibilities — 2026-10-29
+
+The current application service is named CatalogService: it selects visible product availability states, orders them and maps records to ProductSummary in a read-only transaction through ProductRepository. Under the owner’s convention these decisions belong to a use case; this review documents the existing name and responsibilities without refactoring. Reconciliation and Stripe remain planned.
+
+[Source inspected](../../../backend/src/main/java/com/aurorabakery/catalog/application/CatalogService.java). No application runtime check or test execution is implied. Historical results below were not rerun.
+
+[English](overview.md) | [Português](../../pt-br/architecture/overview.md)
 
 Payment Reconciliation Lab is transitioning from the Aurora Bakery study scope toward payment reconciliation. The infrastructure identity has changed; the current application still exposes a legacy read-only catalog. Reconciliation and Stripe are planned, without implemented reconciliation entities, endpoints, jobs or provider calls. The [restructuring report](../operations/historical-refactor-report.md) preserves the earlier commerce history, not the current product roadmap.
 

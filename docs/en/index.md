@@ -1,6 +1,6 @@
 # Documentation catalog: payment-reconciliation-lab
 
-[Project introduction](../../README.md) | [Other language](../pt-BR/index.md)
+[Project introduction](../../README.md) | [Other language](../pt-br/index.md)
 
 Reading path: purpose/setup → architecture/contracts → security/failures → testing/evidence → operations. For the library, use catalog/dossier → project interview → foundations → failure follow-ups. Historical milestone/refactor/handoff records describe their original dates; current review/checklist explains present scope.
 
@@ -29,7 +29,7 @@ Setup, prerequisites and reading procedures.
 Test strategy, inventories and dated evidence.
 
 - [Testing](testing/strategy.md)
-- [Refactor verification — 2026-10-05](testing/verification.md)
+- [Refactor verification — 2026-10-05](../../../engineering-library/docs/en/projects/engineering-library/docs/en/testing/documentation.md)
 
 ## docker
 
@@ -69,3 +69,5 @@ Category applicability and omissions are justified in the [completion checklist]
 ## Practical implementation and interview path
 
 [Trace a request, inspect failure boundaries and rehearse answers](guides/implementation-study.md).
+
+- [Refactor verification — 2026-10-05](testing/verification.md)

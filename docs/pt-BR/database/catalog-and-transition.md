@@ -1,6 +1,6 @@
 # Schema de catálogo e transição de domínio
 
-[English](../../en/database/catalog-and-transition.md) | [Português brasileiro](catalog-and-transition.md)
+[English](../../en/database/catalog-and-transition.md) | [Português brasileiro](../../pt-br/database/catalog-and-transition.md)
 
 Revisão estática do código: 2026-10-10. Fatos implementados, teoria geral e mudanças hipotéticas são separados abaixo. Comandos runtime não foram executados.
 

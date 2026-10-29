@@ -1,6 +1,6 @@
 # Segurança da API de leitura e futuras fronteiras de pagamento
 
-[English](../../en/security/read-api-boundaries.md) | [Português brasileiro](read-api-boundaries.md)
+[English](../../en/security/read-api-boundaries.md) | [Português brasileiro](../../pt-br/security/read-api-boundaries.md)
 
 Revisão estática do código: 2026-10-10. Fatos implementados, teoria geral e mudanças hipotéticas são separados abaixo. Comandos runtime não foram executados.
 

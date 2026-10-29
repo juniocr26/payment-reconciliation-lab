@@ -1,6 +1,6 @@
 # Startup, deployment and test boundaries
 
-[English](deployment-and-evidence.md) | [Português brasileiro](../../pt-BR/operations/deployment-and-evidence.md)
+[English](deployment-and-evidence.md) | [Português brasileiro](../../pt-br/operations/deployment-and-evidence.md)
 
 Static source review: 2026-10-10. Implemented facts, general theory and hypothetical changes are distinguished below. Runtime commands were not executed.
 

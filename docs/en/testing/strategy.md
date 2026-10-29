@@ -1,3 +1,5 @@
+> 2026-10-29: source inspection included [ProductApiTest.java](../../../backend/src/test/java/com/aurorabakery/catalog/ProductApiTest.java). The cases were inspected, not executed. Dated results elsewhere are historical; no new coverage or runtime success is claimed.
+
 # Testing
 
 

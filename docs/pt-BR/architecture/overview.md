@@ -1,8 +1,14 @@
 # Arquitetura e domínio
 
-[English](../../en/architecture/overview.md) | [Português](overview.md)
+## Responsabilidades no código atual — 29/10/2026
 
-Payment Reconciliation Lab está em transição do estudo Aurora Bakery para reconciliação de pagamentos. A identidade da infraestrutura mudou; a aplicação atual ainda expõe catálogo legado somente leitura. Reconciliação e Stripe são planejados, sem entidades, endpoints, jobs ou chamadas ao provedor implementados. O [relatório de reestruturação](../operations/historical-refactor-report.md) preserva o histórico de comércio, não o roadmap atual.
+O serviço de aplicação atual chama-se CatalogService: seleciona estados visíveis de disponibilidade, ordena e mapeia registros para ProductSummary em transação somente leitura via ProductRepository. Pela convenção do proprietário, essas decisões pertencem a um caso de uso; a revisão registra o nome e as responsabilidades existentes sem refatorar. Conciliação e Stripe permanecem planejados.
+
+[Código inspecionado](../../../backend/src/main/java/com/aurorabakery/catalog/application/CatalogService.java). Não implica verificação da aplicação em execução ou execução de testes. Resultados históricos abaixo não foram reexecutados.
+
+[English](../../en/architecture/overview.md) | [Português](../../pt-br/architecture/overview.md)
+
+Payment Reconciliation Lab está em transição do estudo Aurora Bakery para reconciliação de pagamentos. A identidade da infraestrutura mudou; a aplicação atual ainda expõe catálogo legado somente leitura. Reconciliação e Stripe são planejados, sem entidades, endpoints, jobs ou chamadas ao provedor implementados. O [relatório de reestruturação](../../pt-br/operations/historical-refactor-report.md) preserva o histórico de comércio, não o roadmap atual.
 
 ## Módulos implementados
 
@@ -16,7 +22,7 @@ Segurança libera GETs explícitos de catálogo/health e OpenAPI no perfil dev, 
 
 ## Evolução do banco
 
-Flyway preserva V1/V2. V2 renomeia `stores` para `legacy_stores` e cria products com constraints; bancos novos aplicam ambas. Não há migração de reconciliação. Hibernate valida schema; `open-in-view=false` mantém mapeamento na transação do serviço. Preserve checksums e credenciais do banco inicializado na [transição da infraestrutura](../docker/runtime.md).
+Flyway preserva V1/V2. V2 renomeia `stores` para `legacy_stores` e cria products com constraints; bancos novos aplicam ambas. Não há migração de reconciliação. Hibernate valida schema; `open-in-view=false` mantém mapeamento na transação do serviço. Preserve checksums e credenciais do banco inicializado na [transição da infraestrutura](../../pt-br/docker/runtime.md).
 
 SQL de seed do catálogo removido. `DevelopmentSeedConfiguration` rejeita `app.seed.enabled=true` com falha no ApplicationRunner: mantenha `DEV_SEED_ENABLED=false`. O runtime base ainda aplica Flyway automaticamente; o override dev o desabilita e exige schema inicializado. Não há geração de fixtures de reconciliação.
 
@@ -24,7 +30,7 @@ SQL de seed do catálogo removido. `DevelopmentSeedConfiguration` rejeita `app.s
 
 Está estabelecida a direção para reconciliação e integração Stripe de teste. `STRIPE_SECRET_KEY` reservado não tem binding, validação ou SDK consumidor; Compose não o passa ao backend. Entrada no exemplo público não implementa integração.
 
-Antes dos fluxos, defina entradas de reconciliação, regras de correspondência, representação monetária/moeda, divergências, replay/idempotência e revisão autorizada. Eventos assinados, registros financeiros do servidor e tratamento de duplicatas são considerações de estudo, não contratos selecionados/implementados. Cadastro CUSTOMER/ADMIN, fidelidade, checkout da padaria, estados de pedidos e uploads pertencem ao histórico de comércio e não são entregas atuais. Veja [roadmap](roadmap.md) e [decisões](../adr/architecture-decisions.md).
+Antes dos fluxos, defina entradas de reconciliação, regras de correspondência, representação monetária/moeda, divergências, replay/idempotência e revisão autorizada. Eventos assinados, registros financeiros do servidor e tratamento de duplicatas são considerações de estudo, não contratos selecionados/implementados. Cadastro CUSTOMER/ADMIN, fidelidade, checkout da padaria, estados de pedidos e uploads pertencem ao histórico de comércio e não são entregas atuais. Veja [roadmap](../../pt-br/architecture/roadmap.md) e [decisões](../../pt-br/adr/architecture-decisions.md).
 
 ## Sequência de requisição implementada
 

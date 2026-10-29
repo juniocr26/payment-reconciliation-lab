@@ -1,6 +1,6 @@
 # Scope and implementation status
 
-[English](roadmap.md) | [Português](../../pt-BR/architecture/roadmap.md)
+[English](roadmap.md) | [Português](../../pt-br/architecture/roadmap.md)
 
 ## Current foundation
 

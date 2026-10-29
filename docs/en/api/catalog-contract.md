@@ -1,6 +1,6 @@
 # Implemented catalog API and UI
 
-[English](catalog-contract.md) | [Português brasileiro](../../pt-BR/api/catalog-contract.md)
+[English](catalog-contract.md) | [Português brasileiro](../../pt-br/api/catalog-contract.md)
 
 Static source review: 2026-10-10. Implemented facts, general theory and hypothetical changes are distinguished below. Runtime commands were not executed.
 
