@@ -29,7 +29,7 @@ Setup, pré-requisitos e procedimentos de leitura.
 Estratégia, inventários e evidências datadas.
 
 - [Testes](../pt-br/testing/strategy.md)
-- [Verificação da reestruturação — 2026-10-05](../../../engineering-library/docs/pt-br/projects/engineering-library/docs/pt-br/testing/documentation.md)
+- [Verificação da reestruturação — 2026-10-05](../../../engineering-library/docs/engineering-library/pt-br/testing/documentation.md)
 
 ## docker
 

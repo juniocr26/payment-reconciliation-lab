@@ -41,7 +41,7 @@ Revisão estática em 2026-10-10; sem execução runtime. Itens marcados indicam
 
 Transição de domínio fiel; fluxo catálogo/DTO/JPA; dinheiro/constraints; transações; segurança/CORS; migrações/volumes; testes, startup e conciliação hipotética.
 
-[Self-contained dossier / Dossiê](../../../../engineering-library/docs/pt-br/projects/payment-reconciliation-lab/docs/pt-br/architecture/overview.md) | [Interview / Entrevista](../../../../engineering-library/docs/pt-br/projects/payment-reconciliation-lab/docs/pt-br/faq/index.md)
+[Self-contained dossier / Dossiê](../../../../engineering-library/docs/payment-reconciliation-lab/pt-br/architecture/overview.md) | [Interview / Entrevista](../../../../engineering-library/docs/payment-reconciliation-lab/pt-br/faq/index.md)
 
 ## Aplicabilidade das categorias
 

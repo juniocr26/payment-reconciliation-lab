@@ -45,7 +45,7 @@ docker compose -f docker-compose.yml -f compose.development.yaml up -d --no-deps
 docker compose -f docker-compose.yml -f compose.development.yaml stop frontend
 ```
 
-A stack exige schema compatível já inicializado: Flyway desabilitado não inicializa banco novo. Inicialização/migração é operação explícita fora deste guia seguro. Após verificar schema e efeitos da aplicação, execute `docker compose -f docker-compose.yml -f compose.development.yaml up -d`. Pare somente os serviços que iniciou: `docker compose -f docker-compose.yml -f compose.development.yaml stop frontend backend db`. Não remova volumes para recuperar dependências. Veja [a validação atual](../../../../engineering-library/docs/pt-br/projects/engineering-library/docs/pt-br/testing/documentation.md).
+A stack exige schema compatível já inicializado: Flyway desabilitado não inicializa banco novo. Inicialização/migração é operação explícita fora deste guia seguro. Após verificar schema e efeitos da aplicação, execute `docker compose -f docker-compose.yml -f compose.development.yaml up -d`. Pare somente os serviços que iniciou: `docker compose -f docker-compose.yml -f compose.development.yaml stop frontend backend db`. Não remova volumes para recuperar dependências. Veja [a validação atual](../../../../engineering-library/docs/engineering-library/pt-br/testing/documentation.md).
 
 ## Dependências excluídas e containers parados
 

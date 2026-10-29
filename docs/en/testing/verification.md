@@ -1,6 +1,6 @@
 # Refactor verification — 2026-10-05
 
-[English](verification.md) | [Português](../../../../engineering-library/docs/en/projects/engineering-library/docs/en/testing/documentation.md)
+[English](verification.md) | [Português](../../../../engineering-library/docs/engineering-library/en/testing/documentation.md)
 
 This records the earlier refactor verification, not a new full-stack run during the documentation review. The verification used Docker Desktop with Compose v2 on macOS ARM64. Host Java 17 and missing host Node were bypassed using the repository Java 25 and Node 22 Docker images. Exact pinned dependencies were retained.
 
@@ -63,4 +63,4 @@ Pending: Testcontainers integration suite was not executed. Automatic approval r
 
 Aligned current architecture, decisions, roadmap and setup with the retained read-only catalog, removed pricing/identity vocabulary and rejected seed flag. Source inventory is 7 unit/API methods, 5 opt-in PostgreSQL methods and 4 Angular cases; inventory is not a new passing result. Reconciliation/Stripe remain planned and the reserved key is not bound or injected by Compose. No Docker, builds, tests, database/volume inspection, migrations or transition/backup commands were executed. Earlier service-state statements describe the prior transition, not current Docker state.
 
-Static local-link/anchor, fence, language-pair and documentation-only SHA-256 checks are recorded in the shared [interview review](../../../../engineering-library/docs/en/projects/engineering-library/docs/en/testing/documentation.md). Runtime environment files and secret-bearing backups were not read or modified.
+Static local-link/anchor, fence, language-pair and documentation-only SHA-256 checks are recorded in the shared [interview review](../../../../engineering-library/docs/engineering-library/en/testing/documentation.md). Runtime environment files and secret-bearing backups were not read or modified.

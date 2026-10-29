@@ -1,6 +1,6 @@
 # Verificação da reestruturação — 2026-10-05
 
-[English](../../../../engineering-library/docs/pt-br/projects/engineering-library/docs/pt-br/testing/documentation.md) | [Português](../../../../engineering-library/docs/pt-br/projects/engineering-library/docs/pt-br/testing/documentation.md)
+[English](../../../../engineering-library/docs/engineering-library/pt-br/testing/documentation.md) | [Português](../../../../engineering-library/docs/engineering-library/pt-br/testing/documentation.md)
 
 Este é o registro da verificação anterior da reestruturação, não da revisão documental atual. Foi usado Docker Desktop com Compose v2 em macOS ARM64. Java 17 do host e ausência de Node foram contornados com imagens Java 25/Node 22 do repositório. Dependências fixadas foram preservadas.
 
@@ -60,4 +60,4 @@ Pendente: suíte Testcontainers não executada. Revisão automática rejeitou mo
 
 Arquitetura, decisões, roadmap e setup alinhados ao catálogo de leitura, remoção de pricing/vocabulário de identidade e rejeição da flag de seed. Inventário: 7 métodos unitários/API, 5 PostgreSQL opt-in e 4 Angular; não é novo resultado aprovado. Reconciliação/Stripe planejados, chave reservada sem binding/passagem Compose. Não foram executados Docker, builds, testes, inspeção de banco/volume, migração ou transição/backup. Estado de serviços anterior descreve aquela transição, não estado Docker atual.
 
-Checagens estáticas de links/âncoras, fences, pares de idioma e SHA-256 para alterações somente documentais estão na [revisão de entrevista](../../../../engineering-library/docs/pt-br/projects/engineering-library/docs/pt-br/testing/documentation.md). Arquivos reais de ambiente e backups sensíveis não foram lidos/alterados.
+Checagens estáticas de links/âncoras, fences, pares de idioma e SHA-256 para alterações somente documentais estão na [revisão de entrevista](../../../../engineering-library/docs/engineering-library/pt-br/testing/documentation.md). Arquivos reais de ambiente e backups sensíveis não foram lidos/alterados.

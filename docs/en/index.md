@@ -29,7 +29,7 @@ Setup, prerequisites and reading procedures.
 Test strategy, inventories and dated evidence.
 
 - [Testing](testing/strategy.md)
-- [Refactor verification — 2026-10-05](../../../engineering-library/docs/en/projects/engineering-library/docs/en/testing/documentation.md)
+- [Refactor verification — 2026-10-05](../../../engineering-library/docs/engineering-library/en/testing/documentation.md)
 
 ## docker
 

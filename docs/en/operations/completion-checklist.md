@@ -41,7 +41,7 @@ Static review on 2026-10-10; no runtime execution. Checked items describe comple
 
 Truthful domain transition; catalog request/DTO/JPA flow; money/schema constraints; transaction boundaries; security/CORS; migration/volume preservation; tests, startup and hypothetical reconciliation.
 
-[Self-contained dossier / Dossiê](../../../../engineering-library/docs/en/projects/payment-reconciliation-lab/docs/en/architecture/overview.md) | [Interview / Entrevista](../../../../engineering-library/docs/en/projects/payment-reconciliation-lab/docs/en/faq/index.md)
+[Self-contained dossier / Dossiê](../../../../engineering-library/docs/payment-reconciliation-lab/en/architecture/overview.md) | [Interview / Entrevista](../../../../engineering-library/docs/payment-reconciliation-lab/en/faq/index.md)
 
 ## Category applicability
 
